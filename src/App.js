@@ -1,6 +1,7 @@
 import React from 'react';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
+import './components/Todo.css'
 
 const dataTodo = [
   {
@@ -66,7 +67,8 @@ class App extends React.Component {
     return (
       <div className="container">
         <TodoForm addItem={this.addItem} />
-        <h2>Welcome to Todo App!</h2>
+        <h2>Welcome to my Todo App!</h2>
+        <h3>Complete Tasks and Cross them Off</h3>
         <TodoList
           TodoList={this.state.dataTodo}
           toggleCompleted={this.toggleCompleted}
