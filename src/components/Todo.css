@@ -2,6 +2,16 @@ body{
     background-color: #F5F1E3;
 }
 
+h2{
+    color: #F5F1E3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+h3{
+    color: #DDDBCB;
+    font-size: 1.2rem;
+}
+
 .container{
     width: 400px;
     margin-left: 28%;
@@ -50,16 +60,3 @@ body{
     color: black;
 }
 
-h2{
-    color: #F5F1E3;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} 
-
-h3{
-    color: #DDDBCB;
-    font-size: 1.2rem;
-}
-
-.list{
-    color: red;
-}
